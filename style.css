@@ -1,0 +1,82 @@
+.bb {border: 2px solid blue;}
+.br {border: 2px solid red;}
+.bt {border: 2px solid teal;}
+.bd {border: 2px solid darkgoldenrod;}
+.bh {border: 2px solid hotpink;}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round {
+    width: 60px;
+    height: 60px; 
+    border-radius: 50%;
+}
+
+
+
+/* section-one */
+
+.sec-one-img {
+    animation-name: az;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes az {
+    0%,100% {
+        transform: translateY(-30px);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+}
+
+/* section-six */
+.img-div-one {
+    background-image: url(img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.box-six {
+    position: absolute;
+    bottom: 20px;
+}
+
+.img-div-tow {
+    background-image: url(img-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.img-div-three {
+    background-image: url(img-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.img-div-four {
+
+    background-image: url(img-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    border-radius: 10px;
+    position: relative;
+}
